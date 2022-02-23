@@ -35,3 +35,65 @@ header img {
   height: 12px;
 }
 
+.introduction {
+  background: url('images/header-illsutration-mobile.svg');
+  display: flex;
+  flex-direction: column;
+  flex-basis: 327px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.peramble {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  padding-top: 59px;
+}
+
+#name {
+  color:#172b4d ;
+}
+
+#profession {
+  color: #36b37e;
+}
+
+.details {
+  margin: 42px 24px 60px 24px;
+  color: #172b4d;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.social {
+  background-image: url('images/bottom/Frame.svg');
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: right;
+  height: 189px;
+}
+
+.social ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 102px 62px 102px;
+}
+
+.social ul li {
+  list-style: none;
+}
+
+#scroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #e5e5e5;
+  margin: 0 auto 22px auto;
+}
